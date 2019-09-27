@@ -25,7 +25,7 @@ public class FibonacciDynamic {
         FibonacciDynamic fibonacciDynamic = new FibonacciDynamic();
         fibonacciDynamic.printLookuup();
         System.out.println();
-        int f1 = fibonacciDynamic.fib(8);
+        int f1 = fibonacciDynamic.fib(3);
         int f2 = fibonacciDynamic.fib(3);
         System.out.println(f1);
         System.out.println(f2);
