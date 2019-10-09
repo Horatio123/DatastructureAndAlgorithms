@@ -43,4 +43,15 @@ public class AlgorithmsTest
         assertEquals(findLPS(str2), 3);
 
     }
+
+    @Test
+    public void testLongBitonicSeq()
+    {
+        int[] input = {3, 1, 4, 2, 7, 9, 8, 13};
+        int[] input2 = {1, 11, 2, 10, 4, 5, 2, 1};
+        LBS lbs = new LBS();
+        assertEquals(lbs.findLBS(input), 5);
+        assertEquals(lbs.findLBS(input2), 6);
+
+    }
 }
